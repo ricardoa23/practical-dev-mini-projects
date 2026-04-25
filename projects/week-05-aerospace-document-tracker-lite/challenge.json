@@ -1,0 +1,32 @@
+{
+  "projectName": "Week 05 Aerospace Document Tracker Lite",
+  "languageStack": ["Java", "Spring Boot", "React", "PostgreSQL"],
+  "database": "PostgreSQL",
+  "difficulty": "intermediate-plus",
+  "requiredTasks": [
+    { "id": "w5-transition-rules", "title": "Implement status transition rules" },
+    { "id": "w5-fix-invalid-transition", "title": "Fix invalid transition bug" },
+    { "id": "w5-tests", "title": "Add integration tests" },
+    { "id": "w5-search", "title": "Improve search behavior" },
+    { "id": "w5-local-config", "title": "Create local properties file" },
+    { "id": "w5-workflow-notes", "title": "Create workflow decisions notes" }
+  ],
+  "optionalTasks": [
+    { "id": "w5-audit-log", "title": "Add audit log entries" },
+    { "id": "w5-history-panel", "title": "Add frontend history panel" }
+  ],
+  "testCommands": [
+    "mvn -f backend/pom.xml test",
+    "npm --prefix frontend test"
+  ],
+  "requiredFiles": [
+    "backend/src/main/resources/application-local.properties",
+    "notes/workflow-decisions.md"
+  ],
+  "weights": {
+    "requiredTasks": 0.5,
+    "tests": 0.25,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "budget-1",
+    "month": "2026-04",
+    "categories": [
+      { "name": "groceries", "items": [{ "label": "market", "amount": 80 }, { "label": "snacks", "amount": 25 }] },
+      { "name": "transport", "items": [{ "label": "train", "amount": 40 }] }
+    ]
+  }
+]

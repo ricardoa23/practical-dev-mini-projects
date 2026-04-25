@@ -1,0 +1,28 @@
+{
+  "projectName": "Week 06 Existing Codebase Improvement Sprint",
+  "languageStack": ["Mixed"],
+  "database": "Depends on chosen target",
+  "difficulty": "intermediate-plus",
+  "targetProjectFile": "TARGET_PROJECT.txt",
+  "requiredTasks": [
+    { "id": "w6-pick-target", "title": "Choose a prior project" },
+    { "id": "w6-feature", "title": "Add one new feature" },
+    { "id": "w6-refactor", "title": "Refactor one pain point" },
+    { "id": "w6-tests", "title": "Add missing tests" },
+    { "id": "w6-readme", "title": "Improve target project README" },
+    { "id": "w6-migration", "title": "Add one migration or index improvement" },
+    { "id": "w6-retro", "title": "Create sprint retro file" }
+  ],
+  "optionalTasks": [
+    { "id": "w6-pr-summary", "title": "Write a pull-request style summary" },
+    { "id": "w6-monitoring", "title": "Add one logging or monitoring improvement" }
+  ],
+  "testCommands": [],
+  "requiredFiles": ["TARGET_PROJECT.txt", "SPRINT-RETRO.md"],
+  "weights": {
+    "requiredTasks": 0.5,
+    "tests": 0.2,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "projectName": "Week 02 Tool Inventory Bugfix App",
+  "languageStack": ["Java", "Spring Boot", "MySQL"],
+  "database": "MySQL",
+  "difficulty": "introductory-plus",
+  "requiredTasks": [
+    { "id": "w2-fix-availability", "title": "Fix checkout availability bug" },
+    { "id": "w2-serial-search", "title": "Implement serial number search" },
+    { "id": "w2-tests", "title": "Add JUnit service tests" },
+    { "id": "w2-local-config", "title": "Create local Spring properties file" },
+    { "id": "w2-investigation-notes", "title": "Create bug investigation notes" }
+  ],
+  "optionalTasks": [
+    { "id": "w2-low-stock", "title": "Add low-stock reporting" },
+    { "id": "w2-due-warning", "title": "Add due-date warning endpoint" }
+  ],
+  "testCommands": ["mvn test"],
+  "requiredFiles": [
+    "src/main/resources/application-local.properties",
+    "notes/bug-investigation.md"
+  ],
+  "weights": {
+    "requiredTasks": 0.5,
+    "tests": 0.25,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  }
+}

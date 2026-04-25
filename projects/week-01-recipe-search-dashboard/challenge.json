@@ -1,0 +1,32 @@
+{
+  "projectName": "Week 01 Recipe Search Dashboard",
+  "languageStack": ["TypeScript", "React", "Node", "PostgreSQL"],
+  "database": "PostgreSQL",
+  "difficulty": "introductory",
+  "requiredTasks": [
+    { "id": "w1-fix-tag-filter", "title": "Fix the broken tag filter" },
+    { "id": "w1-validate-pagination", "title": "Add pagination validation" },
+    { "id": "w1-sort-desc", "title": "Fix descending prep-time sorting" },
+    { "id": "w1-backend-tests", "title": "Add backend integration tests" },
+    { "id": "w1-debug-log", "title": "Create debug log notes file" },
+    { "id": "w1-env-example", "title": "Create backend env example file" }
+  ],
+  "optionalTasks": [
+    { "id": "w1-multi-tag", "title": "Support multi-tag filtering" },
+    { "id": "w1-playwright", "title": "Add a Playwright smoke test" }
+  ],
+  "testCommands": [
+    "npm --prefix backend test",
+    "npm --prefix frontend test"
+  ],
+  "requiredFiles": [
+    "notes/debug-log.md",
+    "backend/.env.example"
+  ],
+  "weights": {
+    "requiredTasks": 0.45,
+    "tests": 0.3,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  }
+}

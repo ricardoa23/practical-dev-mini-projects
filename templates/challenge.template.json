@@ -1,0 +1,20 @@
+{
+  "projectName": "example-project",
+  "languageStack": ["TypeScript"],
+  "database": "PostgreSQL",
+  "difficulty": "easy",
+  "requiredTasks": [
+    { "id": "task-1", "title": "Finish the missing implementation" }
+  ],
+  "optionalTasks": [
+    { "id": "stretch-1", "title": "Add one extra improvement" }
+  ],
+  "testCommands": ["npm test"],
+  "requiredFiles": ["NOTES.md"],
+  "weights": {
+    "requiredTasks": 0.45,
+    "tests": 0.3,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  }
+}

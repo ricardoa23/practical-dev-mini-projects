@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "defaultWeights": {
+    "requiredTasks": 0.45,
+    "tests": 0.3,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  },
+  "progressFileName": "progress.json",
+  "challengeFileName": "challenge.json",
+  "projectsDirectory": "projects"
+}

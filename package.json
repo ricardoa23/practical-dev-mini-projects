@@ -1,0 +1,10 @@
+{
+  "name": "practical-dev-mini-projects",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Weekly practical junior engineer training projects",
+  "scripts": {
+    "progress": "python3 scripts/progress_tracker.py",
+    "progress:json": "python3 scripts/progress_tracker.py --json"
+  }
+}

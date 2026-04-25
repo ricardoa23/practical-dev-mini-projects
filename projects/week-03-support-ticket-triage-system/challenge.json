@@ -1,0 +1,28 @@
+{
+  "projectName": "Week 03 Support Ticket Triage System",
+  "languageStack": ["Python", "FastAPI", "PostgreSQL"],
+  "database": "PostgreSQL",
+  "difficulty": "intermediate",
+  "requiredTasks": [
+    { "id": "w3-fix-status-filter", "title": "Fix broken status filtering" },
+    { "id": "w3-endpoint-tests", "title": "Add endpoint tests" },
+    { "id": "w3-logging", "title": "Add basic logging" },
+    { "id": "w3-notes", "title": "Create investigation notes" },
+    { "id": "w3-env", "title": "Create env example file" }
+  ],
+  "optionalTasks": [
+    { "id": "w3-pagination-headers", "title": "Add pagination metadata headers" },
+    { "id": "w3-query-timing", "title": "Add query timing logs" }
+  ],
+  "testCommands": ["pytest"],
+  "requiredFiles": [
+    "docs/investigation-notes.md",
+    ".env.example"
+  ],
+  "weights": {
+    "requiredTasks": 0.45,
+    "tests": 0.3,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  }
+}

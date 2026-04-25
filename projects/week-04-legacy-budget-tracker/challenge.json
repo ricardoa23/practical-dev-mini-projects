@@ -1,0 +1,32 @@
+{
+  "projectName": "Week 04 Legacy Budget Tracker",
+  "languageStack": ["TypeScript", "React", "Node", "MongoDB"],
+  "database": "MongoDB",
+  "difficulty": "intermediate",
+  "requiredTasks": [
+    { "id": "w4-fix-totals", "title": "Fix broken category totals" },
+    { "id": "w4-refactor-duplication", "title": "Remove duplicated calculations" },
+    { "id": "w4-validation", "title": "Add negative amount validation" },
+    { "id": "w4-component-refactor", "title": "Refactor one frontend component" },
+    { "id": "w4-plan", "title": "Create refactor plan notes" },
+    { "id": "w4-env", "title": "Create API env example" }
+  ],
+  "optionalTasks": [
+    { "id": "w4-sort", "title": "Add category sorting by total spend" },
+    { "id": "w4-browser-test", "title": "Add a browser-style creation test" }
+  ],
+  "testCommands": [
+    "npm --prefix api test",
+    "npm --prefix web test"
+  ],
+  "requiredFiles": [
+    "notes/refactor-plan.md",
+    "api/.env.example"
+  ],
+  "weights": {
+    "requiredTasks": 0.45,
+    "tests": 0.3,
+    "optionalTasks": 0.1,
+    "requiredFiles": 0.15
+  }
+}

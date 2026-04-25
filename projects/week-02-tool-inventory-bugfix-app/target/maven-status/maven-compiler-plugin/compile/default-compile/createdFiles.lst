@@ -1,0 +1,4 @@
+com/practicaldev/inventory/controller/ToolController.class
+com/practicaldev/inventory/repository/ToolRepository.class
+com/practicaldev/inventory/model/ToolItem.class
+com/practicaldev/inventory/service/ToolService.class
